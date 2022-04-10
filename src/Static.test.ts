@@ -32,6 +32,7 @@ describe('Статические поля и методы', () => {
     });
     describe('Задача 4. Метод ceil', () => {
         it('Метод корректно округляет', () => {
+            console.log('TestClass====>>>> ', TestClass.ceil(1.1));
             expect(TestClass.ceil(1.1)).toBe(2);
             expect(TestClass.ceil(3.5)).toBe(4);
             expect(TestClass.ceil(2.9)).toBe(3);
